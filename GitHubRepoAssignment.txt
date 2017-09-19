@@ -1,0 +1,47 @@
+DOCBook-Bro:gittest danielcarrigan$ pwd
+/Users/danielcarrigan/desktop/dojo/DojoAssignments/webfundamentals/git/gittest
+DOCBook-Bro:gittest danielcarrigan$ cd ..
+DOCBook-Bro:git danielcarrigan$ pwd
+/Users/danielcarrigan/desktop/dojo/DojoAssignments/webfundamentals/git
+DOCBook-Bro:git danielcarrigan$ ls
+gittest			learning-to-commit.txt
+DOCBook-Bro:git danielcarrigan$ mkdir GitHubRepoAssignment
+DOCBook-Bro:git danielcarrigan$ ls
+GitHubRepoAssignment	gittest			learning-to-commit.txt
+DOCBook-Bro:git danielcarrigan$ cd GitHubRepoAssignment/
+DOCBook-Bro:GitHubRepoAssignment danielcarrigan$ ls
+DOCBook-Bro:GitHubRepoAssignment danielcarrigan$ git init
+Initialized empty Git repository in /Users/danielcarrigan/Desktop/dojo/DojoAssignments/webfundamentals/git/GitHubRepoAssignment/.git/
+DOCBook-Bro:GitHubRepoAssignment danielcarrigan$ ls -a
+.	..	.git
+DOCBook-Bro:GitHubRepoAssignment danielcarrigan$ pwd
+/Users/danielcarrigan/desktop/dojo/DojoAssignments/webfundamentals/git/GitHubRepoAssignment
+DOCBook-Bro:GitHubRepoAssignment danielcarrigan$ touch readme.md
+DOCBook-Bro:GitHubRepoAssignment danielcarrigan$ nano readme.md
+DOCBook-Bro:GitHubRepoAssignment danielcarrigan$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	readme.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+DOCBook-Bro:GitHubRepoAssignment danielcarrigan$ git add readme.md
+DOCBook-Bro:GitHubRepoAssignment danielcarrigan$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   readme.md
+
+DOCBook-Bro:GitHubRepoAssignment danielcarrigan$ git commit -m "adding readme file"
+[master (root-commit) 0b45204] adding readme file
+ 1 file changed, 1 insertion(+)
+ create mode 100644 readme.md
+DOCBook-Bro:GitHubRepoAssignment danielcarrigan$ 
